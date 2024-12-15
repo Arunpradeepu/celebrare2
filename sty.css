@@ -1,0 +1,12 @@
+.wer1,.wer2,.wer3{
+    background-color: brown;
+    
+    height: 140px;
+    width: 140px;
+
+    border-radius: 5%;
+}
+.container{
+    display: flex;
+    align-items:end;
+}

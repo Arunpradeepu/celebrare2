@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <a href="upload.html"> <img src="cele.png" alt="Celebrare" width="150px" height="70px "></a>
+    
+<div class="container">
+    
+
+    <div class="centered-div">
+        
+        <h1 style=" font-family: monospace; padding: 7%;  color: rgb(0, 0, 0);">Click to upload images</h1>
+       
+        <img src="Unknown_person.jpg" id="profile-pic">
+        
+        <div class="cen"><label  for="input-file" style="font-family: monospace;">Upload Image</label></div>
+        
+        
+        <input id="input-file" type="file"   accept="image/jpg , image/jpeg , image/png">
+        
+    </div>
+
+
+</div>
+<div style="background-color: white;">
+    
+
+
+
+    <footer>
+        <div class="first">
+            <img class="logo" src="logo.png" alt="">
+            <p >Celebrare is a startup by Alumni of IIT Hyderabad working in the digital India sector to transform wedding invitations market.</p>
+
+        </div>
+        <div class="other">
+            <h2>Policy</h2>
+            <p>Privacy Policy</p>
+            <p>Terms of use</p>
+            <p>Return and Cancellation Policy</p>
+        </div>
+        <div class="other">
+            <h2>Support</h2>
+            <p>FAQ's</p>
+            <p>About Us</p>
+        </div>
+        <div class="other">
+            <h2>Contact Us</h2>
+            <p>+91-8005993442
+            </p> 
+            <p>support@celebrare.in
+            </p>
+            <img class="play" src="play.png" width="200px" height="60px">
+        </div>
+        
+        
+    </footer>
+    <hr>
+    <div>
+        <p class="end" style="padding-top: 5%;">Celebrare 2024, All rights reserved.</p>
+        
+    </div>
+   <script>
+       let profilePic = document.getElementById("profile-pic");
+let inputFile = document.getElementById("input-file");
+
+inputFile.onchange = function() {
+    profilePic.src = URL.createObjectURL(inputFile.files[0]);
+}
+
+
+
+   </script>
+
+
+</body>
+</html>

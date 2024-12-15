@@ -1,0 +1,149 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(Untitled.png);
+}
+ 
+img:hover{
+    cursor: pointer;
+}
+    .container {
+        
+        display: flex;
+        margin:48px 0% 0px 400px;   
+         margin-left: 40%;
+        width: 45%;
+         height: 100vh;
+           }
+
+    .centered-div {
+        
+        border-radius: 20px;
+        text-align: center;
+        background-color:pink;
+        width: 400px;
+        height: 500px;
+    }
+
+    .centered-div img{
+       width: 50%;
+      
+        margin-top:40px ;
+        border-radius: 50%;
+        
+    
+    }
+
+   
+    p{
+        padding: 5%;
+        font-family: sans-serif;
+   
+        
+    }
+    th{
+        
+          padding-left:10px ; 
+         }
+    .logo{
+        padding-left:50px ;
+    }     
+
+h3{
+    padding-top: 2px;
+    padding-left: 170px;
+}
+
+.inline-paragraphs p {
+    display: inline;
+    margin-right: 20px; 
+}
+p{
+    padding: 2%;
+}
+table{
+    font-family: sans-serif;
+    padding-bottom: 2%;
+}
+table h2,h3,p{
+    font-weight: 100;
+}
+table p{
+    font-size: 15px;
+}
+label{
+    color: white;
+    width: max-content;
+    display: block;
+    border-radius: 3px;
+    font-size: 10px;
+    background-color: rgba(125, 14, 129, 0.696);
+    margin-left: 0;
+    padding: 8px;
+    
+ 
+    margin-top: 5%;
+    cursor: pointer;
+}
+input{
+    display:none
+}
+
+label:hover{
+    background-color: rgb(81, 186, 71);
+    transition: 0.3s;
+}
+
+
+.cen{
+    
+    margin-left: 40%;
+}
+
+footer{
+    display: flex;
+    padding: 5%;
+}
+footer .first{
+    width: 40%;
+    padding: 4px;
+}
+footer .other{
+    width: 20%;
+}
+
+footer h2{
+    padding: 0% 8% 15% 0%;
+    font-family: sans-serif;
+}
+@media (max-width:650px) {
+    footer{
+        font-size: 10px;
+    } 
+    footer .logo{
+        width: 50%;
+    }   
+    footer .play{
+        width: 90px;
+        height: 30px;
+    }
+    .end{
+        font-size: 10px;
+    }
+    .centered-div{
+        width: 200px;
+        height: 300px;
+    }
+    .centered-div h1{
+        font-size: 20px;
+    }
+    label{
+        margin-left: -20%;
+    }
+}
+
+.play{
+    margin-top: 3%;
+}
